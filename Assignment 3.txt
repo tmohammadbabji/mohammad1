@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Awesome Online Videos</title>
+    </head>
+    <body>
+        <header>
+           <img style="float:left" src="\\PDCVDAFS01\userdata1\GA953604\Downloads\logo 1.jpg" height="50pxpx" width="100px"/><h1>Awesome Online Videos</h1>
+        </header>
+        <div  >
+           <video width="960" heigth="500" id="vdo" style="background-color:lightblue">
+<source src="What is ASP NET Web API.mp4" type="video/mp4"/>
+ </video>
+<button onclick="play()">Play</button>
+<button onclick="pause()">Pause</button>
+        </div>
+<script> 
+var myVideo = document.getElementById("vdo"); 
+
+function play() { 
+    
+        myVideo.play(); 
+ 
+       
+} 
+
+function pause(){
+ myVideo.pause(); 
+}
+</script> 
+        
+        <footer></footer>
+    </body>
+</html>
+ 

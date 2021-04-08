@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Xena Events</title>
+</head>
+
+<body><canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d7;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Xena Events",10,60);
+</script>
+<h1>
+Register For Hot Ballon Riding Event</h1>
+
+<form>
+ Name: <input type="text" name="name" required><br><br><br>
+ Age: <input type="number" name="age"  min="18" required><br><br><br>
+ E-mail: <input type="email" name="Email" required placeholder="enter a valid email"><br><br><br>
+ City: <input list="city" name="city" required>
+  <datalist id="city">
+    <option value="delhi">
+    <option value="hyderabad">
+    <option value="pune">
+    <option value="banglore">
+    <option value="kota">
+  </datalist><br><br><br>
+<button>submit</button>
+</form>
+</body>
+
+</html> 

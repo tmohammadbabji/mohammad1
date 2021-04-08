@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> BCCI</title>
+    
+
+</head>
+<body style="margin-left:50px;margin-top:50px;">
+
+ <header>
+           <img src="logo.jpg" height="50pxpx" width="100px" style ="float:left"/><h1>Board of Control for Cricket in India</h1>
+        </header>
+
+    <canvas id="myCanvas" width="400" height="400"style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+var canvas = document.getElementById("myCanvas");
+
+var ctx = canvas.getContext("2d");
+
+ctx.moveTo(0,400);
+ctx.lineTo(105,360);
+ctx.stroke();
+ctx.moveTo(105,360);
+ctx.lineTo(200,315);
+ctx.stroke();
+ctx.moveTo(200,315);
+ctx.lineTo(300,210);
+ctx.stroke();
+
+
+
+</script>
+</body>
+</html>

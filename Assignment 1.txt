@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web Page for stock trading app</title>
+ <script>function check(){
+var p=document.getElementById('Q).innerHTML;
+
+if(p<10||p>100){
+document.write("please enter quantity between 10 -100");
+
+}else{if(p/10!=0){
+document.write("quantity should be in blocks of 10s");
+}}
+
+</script> 
+</head>
+
+<body>
+ <table style="width:50% ;border:1px solid black">
+  <tr>
+    <th style="border:1px solid black">TICKER</th>
+    <th style="border:1px solid black">PRICE</th>
+    
+  </tr>
+  <tr>
+    <td style="border:1px solid black">WIPRO</td>
+    <td style="border:1px solid black">298.45</td>
+    
+  </tr>
+  <tr>
+    <td style="border:1px solid black">INFY</td>
+    <td style="border:1px solid black">949.95</td>
+    
+  </tr>
+<tr>
+    <td style="border:1px solid black">TCS</td>
+    <td style="border:1px solid black">2713.70</td>
+    
+  </tr>
+<tr>
+    <td style="border:1px solid black">TECHM</td>
+    <td style="border:1px solid black">485.85</td>
+    
+  </tr>
+</table>
+
+
+<br>
+
+<form><table style="width:50% ;border:1px solid black">
+
+<tr><th>STOCK TRADING</th></tr>
+<tr><td style="border:1px solid black">Ticker:</td> <td style="border:1px solid black">  <input type="text" name="ticker">
+ </td></tr>
+
+<tr><td style="border:1px solid black">Quantity:</td> <td style="border:1px solid black">  <input type="number" name="quantity" min="10" max="100" step ="10" id="Q"> </td></tr>
+<tr ><td></td><td> <button> submit</button></td></tr>
+</table>
+</form>
+</body>
+
+</html> 
